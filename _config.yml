@@ -9,7 +9,7 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
+    image : assets/img/pbluckjikang.jpeg
     username : Jinwoo Kang
     description : 산책 좋아하는 개발자. 컴공 개그 좋아합니다. 유쾌한 것들을 개발하고 있습니다. 동료들과 재밌게 일합니다.
     experience :
@@ -50,6 +50,6 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 bootstrap:
   assets: true
