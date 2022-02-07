@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url : "https://naye0ng.github.io"
+url : "https://pennyblack2008.github.io"
 
 # Blog Settings
 theme_settings :
@@ -10,25 +10,31 @@ theme_settings :
   # Profile Settings
   profile :
     image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    username : Jinwoo Kang
+    description : 산책 좋아하는 개발자. 컴공 개그 좋아합니다. 유쾌한 것들을 개발하고 있습니다. 동료들과 재밌게 일합니다.
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-    skills : 
-      - skill : HTML5 & CSS
+      - start : 2020-01-03
+        end : 2022-02-23
+        experience : 42, Cadet
+    skills :
+      - skill : C
         value : 85  # Percent value
-        
+      - skill : JS, TS
+        value : 75  # Percent value
+      - skill : C++
+        value : 45  # Percent value
+      - skill : React
+        value : 45  # Percent value
+
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
-    linkedin:  # Full URL 
-    github: naye0ng
-    gitlab: 
-    bitbucket: 
+    email: g2ang12@gmail.com # Full email address, e.g. "sample@google.com"
+    linkedin: https://www.linkedin.com/in/jinwoo-kang-568726154/ # Full URL
+    github: PennyBlack2008
+    gitlab:
+    bitbucket:
     google_plus:
-    twitter:
+    twitter: jikangDoinWeird
     youtube:
     facebook:
     instagram:
