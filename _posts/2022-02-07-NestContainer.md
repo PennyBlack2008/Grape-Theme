@@ -9,6 +9,8 @@ comments : True
 
 Local에서 여러 프로젝트를 하다보면 디펜던시가 꼬일 때가 있다. 이 꼬인 디펜던시를 해결하기위해 이것저것 삭제하고 재설치하다보면, 다른 작업도 망가질 가능성이 매우 높다.
 
+[제 42동료분](https://github.com/Jack-R-lantern)이 이렇게 remote 환경을 구축하면 훗날 클라우드에 올렸을 때도 container에서 작업한 환경 그대로 올리면 되기 때문에 걱정이 줄어든다고 저에게 여러번 강력하게 추천해줬습니다.
+
 이를 방지하기 위하여 내 local에 개발환경을 구축하는 것보다는 `Docker`를 사용하여 Container에 개발환경을 구축해봤습니다.
 
 <br>
@@ -75,7 +77,8 @@ docker run -it -d -p 127.0.0.1:4000:4000 --name nest-practice node
 
 <h6>STEP2: ~/.bashrc에 language 환경변수 추가</h6>
 {% highlight shell %}
-docker run -it -d -p 127.0.0.1:4000:4000 --name nest-practice node
+export LANGUAGE=ko_KR.UTF-8
+export LANG=ko_KR.UTF-8
 {% endhighlight %}
 
 <h6>STEP3: locales 업데이트(글쓴 당시에는 297번)</h6>
