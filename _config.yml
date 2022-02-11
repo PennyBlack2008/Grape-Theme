@@ -9,7 +9,7 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/pbluckjikang.jpeg
+    image : assets/img/pbluckjikang2.jpeg
     username : PennyBlack2008
     description : 산책 좋아하는 개발자. 컴공 개그 좋아합니다. 유쾌한 것들을 개발하고 있습니다. 동료들과 재밌게 일합니다.
     experience :
