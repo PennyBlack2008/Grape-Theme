@@ -4,7 +4,7 @@ url : "https://pennyblack2008.github.io"
 
 # Blog Settings
 theme_settings :
-  title : 산책 좋아하는 개발자 PennyBlack
+  title : 산책 좋아하는 개발자
   favicon : assets/favicon3.ico
 
   # Profile Settings
