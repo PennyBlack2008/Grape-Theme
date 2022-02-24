@@ -11,7 +11,7 @@ comments : True
     - index를 i에 미리 더하고 TABLE_SIZE를 나누는 이유는 예를 들어, 해쉬값이 9인 요소가 들어올 때 9번, 10번 인덱스에 모두 요소가 차있으면 0번 인덱스도 고려할 수 있도록 계산한 것이다.
 
 **코드**
-{% highlight shell %}
+{% highlight c %}
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

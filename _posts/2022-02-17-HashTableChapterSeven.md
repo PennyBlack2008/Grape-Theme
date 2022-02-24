@@ -11,7 +11,7 @@ comments : True
 - 그래서 10개를 입력해도 겹치는 해쉬 값 때문에 6사람만 들어간다
 
 **코드**
-{% highlight shell %}
+{% highlight c %}
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

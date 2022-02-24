@@ -10,7 +10,7 @@ comments : True
 1에서 만들었던 무조건 5를 반환하는 hash함수를 업그레이드 시킬 것이다. 이 hash함수는 이름을 받아 해쉬값을 반환한다. 문자열을 받아 가장 간단한 해쉬 로직을 만드는 방법은 argument로 들어온 문자열의 각 문자의 ascii값을 더해 값을 반환하는 것이다.
 
 **코드**
-{% highlight shell %}
+{% highlight c %}
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

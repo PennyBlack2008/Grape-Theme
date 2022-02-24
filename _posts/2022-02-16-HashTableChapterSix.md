@@ -11,7 +11,7 @@ comments : True
 - 하지만, 해쉬 테이블에 중복된 해쉬 값은 테이블에 들어가지 못하고 여전히 튕겨나온다.
 
 **코드**
-{% highlight shell %}
+{% highlight c %}
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

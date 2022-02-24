@@ -12,7 +12,7 @@ comments : True
 그래서 테이블의 크기를 조정하기 위해 TABLE_SIZE의 나머지수로 해쉬 값을 얻어 인덱스의 크기를 제한할 것이다.
 
 **코드**
-{% highlight shell %}
+{% highlight c %}
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

@@ -13,7 +13,7 @@ comments : True
 - 해쉬값을 얻어 그 값에 해당되는 테이블 속 인덱스 요소 자리에 이름을 넣는다. 하지만, 인덱스에 이미 요소가 있다면 넣지 않고 무시한다.
 
 **코드**
-{% highlight shell %}
+{% highlight c %}
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
